@@ -7,7 +7,7 @@ int main()
 
     printf("\n\n\t***********************************\n");
 
-    printf("\t*PERSONAL DIARY*\n");
+    printf("\t\t*PERSONAL DIARY*\n");
 
     printf("\t***********************************");
 
