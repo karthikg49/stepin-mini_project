@@ -27,6 +27,8 @@ int main()
 
         scanf("%d",&ch);
 
+        fflush(stdin);
+
         switch(ch)
 
         {
@@ -107,13 +109,13 @@ void addrecord( ){
 
 void viewrecord( ){
 
+static int i;
     printf("\n\n\t\t***************************\n");
 
     printf("\t\t* WELCOME TO THE VIEW MENU *");
 
     printf("\n\t\t***************************\n\n");
 
-int i;
     for(i=0;i<n;i++){
 
         printf("\n********************");
