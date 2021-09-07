@@ -2,7 +2,7 @@
 # Requirements
 
 ## Introduction
-The Personal Diary Management System Project in C is a consoled based application created using c programming language. This system is a simple mini project and compiled in **VS Codes Both on Windows and Linux operating systems** using **GCC compiler**. This c programming project focuses on maintaining schedule of meeting and work. In this project, we have login into the system. Inside the system customers can view the Menu which consists of adding,viewing and existing from system.We need to login and can view it. Apart from this the admin has the access to add or view the entries in the diary.
+The Personal Diary Management System Project in C is a consoled based application created using c programming language. This system is a simple mini project and compiled in **VS Codes Both on Windows and Linux operating systems** using **GCC compiler**. This c programming project focuses on maintaining schedule of meeting and work. In this project, we have login into the system. Inside the system customers can view the Menu which consists of adding,viewing and existing from system.We need to login and can view it. Apart from this the customer has the access to add or view the entries in the diary.
 
 ## Features
 - A simple consoled based Personal Diary Management System.
@@ -18,7 +18,7 @@ The Personal Diary Management System Project in C is a consoled based applicatio
 - User Friendly.
 - Login and Log out.
 - Add Entries.
-- Admin and Customers windows.
+-Customers window.
 - Customer can Add,View or Exit from System.
 - Modular Based Programs.
 
@@ -35,7 +35,7 @@ The Personal Diary Management System Project in C is a consoled based applicatio
 
 ## 4W's and 1'H
 **WHAT** : Personal Diary Management System.
-**WHERE** : Used in Home,Offices etc.
+**WHERE** : Used in Home,Offices,Workstations etc.
  **WHEN** : Meetings,Party, Functions,Creating Deadlines etc.
  **WHY** : For meeting deadlines.
 **HOW** : Operates by using User Inputs.
@@ -53,8 +53,8 @@ The Personal Diary Management System Project in C is a consoled based applicatio
 ### Low Level Requirements
 | Low Level Requirements      | Description |
 | ----------- | ----------- |
-| LLR1      | Add Menu     |
-| LLR2   | Orders|
-| LLR3   | View Menu|
-| LLR4   |View Previous Orders|
-| LLR5   | Get Bill |
+| LLR1      | Customer Login  |
+| LLR2   | Select from Menu |
+| LLR3   | Enter Date,Time,Name,Place,Duration,Note|
+| LLR4   |Total number of Entries|
+| LLR5   | Close |
