@@ -140,7 +140,45 @@ static int i;
     }
     printf("\nTHERE ARE %d RECORD IN YOUR DIARY",n);
 }
+void searchrecord(){
 
+static int i;
+char date[10];
+    printf("\n\n\t\t***************************\n");
+
+    printf("\t\t* WELCOME TO THE SEARCH MENU *");
+
+    printf("\n\t\t***************************\n\n");
+
+    printf("\n\n\tENTER DATE OF YOUR RECORD TO BE SEARCHED:[yyyy-mm-dd]:");
+
+    scanf("%s",date);
+
+    for(i=0;i<n;i++){
+
+        if(date==r[i].date){
+        printf("\n********************");
+        printf("\nRECORD %d :\n",(i+1));
+
+        printf("\nDATE: %s",r[i].date);
+
+        printf("\nTIME: %s",r[i].time);
+
+        printf("\nMEETING WITH: %s",r[i].name);
+
+        printf("\nMEETING AT: %s",r[i].place);
+
+        printf("\nDURATION: %s",r[i].duration);
+
+        printf("\nNOTE: %s",r[i].note);
+
+        printf("\n");
+
+        printf("\n********************");
+        }
+
+    }
+}
 
 
 
