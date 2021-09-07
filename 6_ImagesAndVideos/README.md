@@ -1,3 +1,4 @@
-# images and videos
+# Images and videos
 
-* Add any images or Videos related to the implemented project
+![github-small](https://github.com/karthikg49/stepin-mini_project/blob/main/6_ImagesAndVideos/Snap1.JPG)
+![github-small](https://github.com/karthikg49/stepin-mini_project/blob/main/6_ImagesAndVideos/Snap2.JPG)
