@@ -59,6 +59,6 @@ The Personal Diary Management System Project in C is a consoled based applicatio
 | LLR1      | Customer Login  |
 | LLR2   | Select from Menu |
 | LLR3   | Enter Date,Time,Name,Place,Duration,Note|
-| LLR4   |Total number of Entries|
+| LLR4   |View all Entries with total number of Entries|
 | LLR4   |Search Entries by Date|
 | LLR5   | Close |
