@@ -15,4 +15,6 @@ void addrecord();
 
 void viewrecord();
 
+void searchrecord();
+
 #endif
