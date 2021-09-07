@@ -1,3 +1,7 @@
+#ifndef DAIRY_H_INCLUDED
+
+#define DAIRY_H_INCLUDED
+
 #include<stdio.h>
 
 #include<stdlib.h>
@@ -11,21 +15,4 @@ void addrecord();
 
 void viewrecord();
 
-struct record
-
-{
-    char date[10];
-
-    char time[6];
-
-    char name[30];
-
-    char place[25];
-
-    char duration[10];
-
-    char note[500];
-
-} ;
-struct record r[100];
-static int n;
+#endif

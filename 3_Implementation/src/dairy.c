@@ -78,27 +78,27 @@ void addrecord( ){
 
     printf("\n\n\tENTER DATE OF YOUR RECORD:[yyyy-mm-dd]:");
 
-    scanf("%s",r[n].date);
+    scanf("%10s",r[n].date);
 
     printf ( "\n\tENTER TIME:[hh:mm]:");
 
-    scanf("%s",r[n].time);
+    scanf("%5s",r[n].time);
 
     printf("\n\tENTER NAME:");
 
-    scanf("%s",r[n].name);
+    scanf("%20s",r[n].name);
 
     printf("\n\tENTER PLACE:");
 
-    scanf("%s",r[n].place);
+    scanf("%20s",r[n].place);
 
     printf("\n\tENTER DURATION:");
 
-    scanf("%s",r[n].duration);
+    scanf("%20s",r[n].duration);
 
     printf("\n\tNOTE:");
 
-    scanf("%s",r[n].note);
+    scanf("%20s",r[n].note);
 
     printf("\n\nYOUR RECORD IS ADDED...\n");
     n++;
@@ -136,7 +136,7 @@ int i;
         printf("\n********************");
 
     }
-    printf("\nTHERE ARE %d RECORD IN YOUR DAIRY",n);
+    printf("\nTHERE ARE %d RECORD IN YOUR DIARY",n);
 }
 
 
