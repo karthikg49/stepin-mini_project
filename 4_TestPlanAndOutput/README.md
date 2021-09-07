@@ -1,10 +1,13 @@
 # Test Plan
 |  Test ID | Description  | Expected Input  | Expected Output  | Actual Output  | Pass/Fail |
 |---|---|---|---|---|---|
-| TID_01  | Signup  | Username: Sultan<br />Password: Sultan123| SUCCESS  |SUCCESS| PASS  |
-| TID_02  | Login  | Username: Sultan<br />Password: Sultan123| SUCCESS  |SUCCESS| PASS  |
-| TID_03  | Adding Food Item  |Food Code: 1.01<br />Food Name: Gobi Manchurian<br />Quantity: 1<br />Price: 100| SUCCESS  |SUCCESS| PASS  |
-| TID_04 | View Menu  | Structure Address| SUCCESS  |SUCCESS| PASS  |
-| TID_05  | Order Food  |Structure Address<br />Food Code<br />Quantity| SUCCESS  |SUCCESS| PASS  |
-| TID_06 | View Previous Orders  | Structure address| SUCCESS  |SUCCESS| PASS  |
-| TID_07 | Total Bill  | Structure address| SUCCESS  |SUCCESS| PASS  |
+| TID_01  | Login   Menu| 1  |Add Records| Add Records|PASS  |
+| TID_02  | Login   Menu| 2  |View Records|View Records| PASS  |
+| TID_03  | Login   Menu|3 |Search Records|Search Records| PASS  |
+| TID_04 | Login   Menu|  4 |Exit|Exit| PASS  |
+| TID_05  | Login  Menu |5| Select correct option  | Select correct option  |PASS  |
+| TID_06  | Add Records| Date,time,Name,Place,Duration,Note |Added Succesfully|Added Succesfully| PASS  |
+| TID_07  | View Records| null |View all records|View all records| PASS  |
+| TID_08  | Search Records| Date |View of Date Provided|View of Date Provided| PASS  |
+| TID_09 | Exit| null |Thank you for using Application|Thank you for using Application| PASS  |
+
