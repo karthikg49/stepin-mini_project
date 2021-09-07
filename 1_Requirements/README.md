@@ -14,6 +14,8 @@ The Personal Diary Management System Project in C is a consoled based applicatio
 - Modular Based Programming.
 
 ## SWOT- Strengths, and Weakness, Opportunities Threats
+
+<img src="https://assets.wordstream.com/s3fs-public/styles/simple_image/public/images/swot-analysis-header1.png?9qhkGEQVMX2Zv5QGkYamvDXW3t1aGWzC&itok=DBCeVBGl" height="400" width="800">
 ### Strengths
 - User Friendly.
 - Login and Log out.
@@ -48,6 +50,7 @@ The Personal Diary Management System Project in C is a consoled based applicatio
 | HLR2   | Menu|
 | HLR3   | Add Entries|
 | HLR4   | View Entries|
+| HLR4   | Search Entries|
 | HLR5   | Exit|
 
 ### Low Level Requirements
@@ -56,5 +59,6 @@ The Personal Diary Management System Project in C is a consoled based applicatio
 | LLR1      | Customer Login  |
 | LLR2   | Select from Menu |
 | LLR3   | Enter Date,Time,Name,Place,Duration,Note|
-| LLR4   |Total number of Entries|
+| LLR4   |View all Entries with total number of Entries|
+| LLR4   |Search Entries by Date|
 | LLR5   | Close |
