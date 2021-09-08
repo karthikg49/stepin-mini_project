@@ -36,7 +36,7 @@ $(PROJECT_NAME):all
 .PHONY : all test coverage run clean doc
 
 all:$(BUILD_DIR)
-	gcc pharma.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
+	gcc dairy.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
 
 coverageCheck:$(BUILD_DIR)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
