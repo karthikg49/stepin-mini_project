@@ -1,13 +1,13 @@
-# Name of the project
 PROJECT_NAME = Personal_Diary_Management_System
 
-# Output directory
-BUILD = build
+BUILD_DIR = Build
 
-# All source code files
 SRC = src/dairy.c\
 
-# All include folders with header files
+TEST_SRC =
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
 INC = -Iinc\
 -Iunity
 
@@ -23,9 +23,35 @@ else
    endif
 endif
 
-all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o build/Final_output.exe 
+# Project Output name
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
-run:
-	./build/Final_output.exe
+# Document files
+DOCUMENTATION_OUTPUT = doc/html
 
+# Default target built
+$(PROJECT_NAME):all
+
+# Makefile will not run target command if the name with file already exists. To override, use .PHONY
+.PHONY : all test coverage run clean doc
+
+all:$(BUILD_DIR)
+	gcc pharma.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
+
+coverageCheck:$(BUILD_DIR)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
+run: all
+	$(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
+
+doc:
+	make -C doc
+
+$(BUILD_DIR):
+	mkdir $(BUILD_DIR)
+
+clean:
+	$(RM) $(call FixPath,$(BUILD_DIR)/*)
+	make clean -C doc
+	rmdir $(BUILD_DIR) doc/html
