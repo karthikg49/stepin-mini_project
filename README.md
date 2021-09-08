@@ -12,6 +12,6 @@ Personal Dairy Management System
 | `1_Requirements`   | Documents detailing requirements and research|
 | `2_Architecture`         | Documents specifying design details|
 | `3_Implementation` | All code and documentation|
-| `4_Test_plan`      | Documents with test plans and procedures|
-| `5_ImagesandVideos`      | Screenshots of Project|
+| `4_Test_planAndOutput`      | Documents with test plans and procedures|
 | `5_Report`      | Document of Project|
+| `6_ImagesandVideos`      | Screenshots of Project|
